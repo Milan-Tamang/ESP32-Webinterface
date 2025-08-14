@@ -13,12 +13,13 @@ This project allows you to control the built-in LED on an ESP32 via a web interf
 ## File Structure
 ```
 Web Interface Test/
-├── src/
-│   ├── main.cpp         # ESP32 firmware
+├── data/
 │   └── web/
-│       ├── index.html   # Web interface
-│       ├── style.css    # Web styling
-│       └── script.js    # Web logic
+│       ├── index.html
+│       ├── style.css
+│       └── script.js
+├── src/
+│   └── main.cpp         # ESP32 firmware
 ├── platformio.ini       # PlatformIO config
 └── README.md            # This file
 ```
