@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP32 LED Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ESP32 LED Control</h1>
+  <div>
+    <button id="toggleBtn">Toggle LED</button>
+    <span id="ledState" class="indicator off">OFF</span>
+  </div>
+  <div>
+    <input type="number" id="delayInput" min="50" value="500"> ms
+    <button id="flashBtn">Flash LED</button>
+  </div>
+  <div>
+    <button id="holdBtn" class="hold-btn">Press and Hold for LED</button>
+  </div>
+  <div style="margin-top:20px;">
+    <button id="pin21Btn" class="pin-btn off">D21: OFF</button>
+    <button id="pin22Btn" class="pin-btn off">D22: OFF</button>
+    <button id="pin19Btn" class="pin-btn off">D19: OFF</button>
+    <button id="pin23Btn" class="pin-btn off">D23: OFF</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

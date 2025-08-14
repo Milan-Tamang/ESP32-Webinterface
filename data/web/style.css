@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 40px; }
+.indicator { display: inline-block; width: 60px; text-align: center; padding: 5px; border-radius: 5px; margin-left: 10px; }
+.indicator.on { background: #4caf50; color: #fff; }
+.indicator.off { background: #f44336; color: #fff; }
+button { margin: 10px 0; padding: 10px 20px; font-size: 16px; }
+input[type=number] { width: 80px; font-size: 16px; }
+.pin-btn { margin: 5px; padding: 10px 18px; font-size: 15px; border-radius: 6px; border: none; cursor: pointer; transition: background 0.2s; }
+.pin-btn.on { background: #2196f3; color: #fff; }
+.pin-btn.off { background: #bdbdbd; color: #333; }
+.hold-btn { background: #2196f3; transition: all 0.2s; }
+.hold-btn:active { background: #0d47a1; }
